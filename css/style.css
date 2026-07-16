@@ -1,0 +1,146 @@
+:root{
+  --brand-dark:#1c2b24;
+  --brand-accent:#c98a3e;
+  --brand-light:#f6f4ee;
+}
+body{
+  font-family:'Segoe UI', Arial, sans-serif;
+  color:#222;
+}
+
+/* Top info bar */
+.topbar{
+  background:var(--brand-dark);
+  color:#fff;
+  font-size:14px;
+}
+.topbar a{
+  color:#fff;
+  text-decoration:none;
+  margin-left:14px;
+}
+.topbar a:hover{ color:var(--brand-accent); }
+
+/* Navbar */
+.navbar{
+  border-bottom:1px solid #eee;
+}
+.navbar-brand{
+  font-weight:700;
+  letter-spacing:.5px;
+  color:var(--brand-dark) !important;
+}
+.nav-link{
+  font-weight:500;
+  color:#333 !important;
+}
+.nav-link.active, .nav-link:hover{
+  color:var(--brand-accent) !important;
+}
+
+/* Carousel */
+.carousel-item img{
+  width:100%;
+  height:560px;
+  object-fit:cover;
+  filter:brightness(0.75);
+}
+.carousel-caption{
+  bottom:15%;
+  text-align:left;
+  left:8%;
+  right:auto;
+  max-width:520px;
+}
+.carousel-caption h5{
+  font-size:2.2rem;
+  font-weight:700;
+  letter-spacing:1px;
+}
+
+/* Section spacing */
+section{
+  padding:70px 0;
+}
+.section-title{
+  font-weight:700;
+  color:var(--brand-dark);
+  margin-bottom:10px;
+}
+.section-sub{
+  color:#777;
+  margin-bottom:40px;
+}
+
+/* About */
+.about-img{
+  border-radius:8px;
+  width:100%;
+  height:380px;
+  object-fit:cover;
+}
+
+/* Services / Products */
+.service-card{
+  border:none;
+  border-radius:10px;
+  padding:30px 24px;
+  background:var(--brand-light);
+  height:100%;
+  transition:transform .2s ease, box-shadow .2s ease;
+}
+.service-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+.service-icon{
+  width:52px;
+  height:52px;
+  border-radius:50%;
+  background:var(--brand-accent);
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:22px;
+  margin-bottom:16px;
+}
+
+/* Skills */
+.progress{ height:8px; border-radius:6px; }
+.progress-bar{ background-color:var(--brand-accent); }
+
+/* Stats band */
+.stats{
+  background:var(--brand-dark);
+  color:#fff;
+}
+.stats h3{
+  font-weight:700;
+  color:var(--brand-accent);
+}
+
+/* Footer */
+footer{
+  background:var(--brand-dark);
+  color:#cfcfcf;
+  padding:50px 0 20px;
+}
+footer h6{
+  color:#fff;
+  font-weight:700;
+  margin-bottom:16px;
+}
+footer a{
+  color:#cfcfcf;
+  text-decoration:none;
+}
+footer a:hover{ color:var(--brand-accent); }
+.footer-bottom{
+  border-top:1px solid rgba(255,255,255,.1);
+  margin-top:30px;
+  padding-top:18px;
+  font-size:13px;
+  text-align:center;
+  color:#999;
+}
